@@ -8,7 +8,7 @@ int main()
 	OLED_Init();
 	CounterSensor_Init();
 
-	OLED_ShowString(1, 1, "Count:"); // 显示字符串"Hello World!"
+	OLED_ShowString(1, 1, "Count:"); 
 
 	while (1)
 	{
